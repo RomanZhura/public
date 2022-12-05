@@ -1,0 +1,67 @@
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.form {
+    display: block;
+    border: 2px solid black;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+    background: white;
+}
+.form input{
+    height: 45px;
+}
+
+.regist input{
+    border-radius: 2px;
+    height: 30px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button__aunt{
+    display: flex;
+}
+.button__aunt input{
+    width: 50%;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button__aunt input:hover{
+    background: gray;
+}
+
+.auntefication {
+    display: none;
+}
+.auntefication input{
+    border-radius: 2px;
+    height: 30px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.confirm input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: aquamarine;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 150px;
+}
